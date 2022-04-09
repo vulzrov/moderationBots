@@ -1,0 +1,3 @@
+visited.json文件结构:
+    1. 同一名user 12h内只会被查一次成分。下次查成分的时间戳存在于“permissionUntil”字段。
+    2. checked字段存查过成分的post和comment id。
