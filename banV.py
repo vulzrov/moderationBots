@@ -76,14 +76,14 @@ def fuckV(subreddit, path, whitelist, replies):
     jsonFile.close()
         
 def main(argv):
-    with open("src/main/resource/clients.json", "r", encoding = "UTF-8") as f:
+    with open("clients.json", "r", encoding = "UTF-8") as f:
         data = json.load(f)
     reddit = praw.Reddit(**(data["bots"]["developerJinping"]))
     chonglanging = reddit.subreddit("chonglanging")   
     
     whitelist = set(data["whitelist"])
     replies = data["replies"]["developerJinping"]
-    path = "src/main/resource/visited.json"
+    path = "visited.json"
     while True:
         fuckV(chonglanging, path, whitelist, replies)
         sleep(30)
