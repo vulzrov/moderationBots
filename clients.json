@@ -1,0 +1,50 @@
+{
+    "bots" : {
+        "iws2000" : {
+            "client_id" : "W2noUrymnBLtS8x0rCFYYQ",
+            "client_secret" : "WF5yhyOAPHgMI_bQdeCOj30OmB6i8Q",
+            "password" : "20010420zxc",
+            "user_agent" : "n/a",
+            "username" : "iws2000_bot"
+        },
+        "developerJinping" : {
+            "client_id" : "cUvBgzj0ISsc1z-fHBbtaA",
+            "client_secret" : "QfXFqhwGfYCqOiEo5rBW62RkYg6Erw",
+            "password" : "20010420zxc",
+            "user_agent" : "n/a",
+            "username" : "developerJinping"
+        },
+        "Easternfellah" : {
+            "client_id" : "xWq1B76_dBJyMwTj7AO-hA",
+            "client_secret" : "pjDUecthfcaAr12rAnHrViEFpIG07g",
+            "password" : "20010420zxc",
+            "user_agent" : "n/a",
+            "username" : "Easternfellah"
+        }
+    },
+
+    "replies" : {
+        "iws2000" : [
+            "傻逼傻逼操你妈",
+            "你妈大逼人人插",
+            "左插插那个右插插",
+            "插的你妈逼开花",
+            "关注嘉然顿顿解馋"
+        ],
+
+        "developerJinping" : [
+            "还能说话吗?",
+            "被鉴定为v87了捏🤗",
+            "♻"
+        ]
+    },
+
+    "whitelist" : [
+        "Easternfellah", 
+        "HalleluYahmygod", 
+        "Sensitive-Medium3287",
+        "Own_Strain_9016",
+        "AutoModerator",
+        "developerJinping"
+    ]
+}
