@@ -1,18 +1,10 @@
-brotlipy @ file:///D:/bld/brotlipy_1636012392748/work
-certifi==2021.10.8
-cffi @ file:///D:/bld/cffi_1636046278333/work
-charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1641584610847/work
-cryptography @ file:///D:/bld/cryptography_1639699435873/work
-idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1609836280497/work
-praw @ file:///home/conda/feedstock_root/build_artifacts/praw_1637180885324/work
-prawcore @ file:///home/conda/feedstock_root/build_artifacts/prawcore_1635580284285/work
-pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
-pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1633192417276/work
-PySocks @ file:///D:/bld/pysocks_1635862562854/work
-requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1641580202195/work
-six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
-update-checker @ file:///home/conda/feedstock_root/build_artifacts/update_checker_1596529541613/work
-urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1641584929973/work
-websocket-client @ file:///home/conda/feedstock_root/build_artifacts/websocket-client_1638949723239/work
-win-inet-pton @ file:///D:/bld/win_inet_pton_1635832858406/work
+certifi==2020.6.20
+charset-normalizer==2.0.12
+idna==3.3
+praw==7.5.0
+prawcore==2.3.0
+requests==2.27.1
+update-checker==0.18.0
+urllib3==1.26.9
+websocket-client==1.3.2
 wincertstore==0.2
