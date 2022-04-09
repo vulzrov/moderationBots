@@ -1,32 +1,18 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: win-64
-brotlipy=0.7.0=py39hb82d6ee_1003
-ca-certificates=2021.10.8=h5b45459_0
-certifi=2021.10.8=py39hcbf5309_1
-cffi=1.15.0=py39h0878f49_0
-charset-normalizer=2.0.10=pyhd8ed1ab_0
-cryptography=36.0.1=py39h7bc7c5c_0
-idna=3.1=pyhd3deb0d_0
-openssl=1.1.1l=h8ffe710_0
-pip=21.2.4=py39haa95532_0
-praw=7.5.0=pyhd8ed1ab_0
-prawcore=2.3.0=pyhd8ed1ab_0
-pycparser=2.21=pyhd8ed1ab_0
-pyopenssl=21.0.0=pyhd8ed1ab_0
-pysocks=1.7.1=py39hcbf5309_4
-python=3.9.7=h6244533_1
-python_abi=3.9=2_cp39
-requests=2.27.1=pyhd8ed1ab_0
-setuptools=58.0.4=py39haa95532_0
-six=1.16.0=pyh6c4a22f_0
-sqlite=3.37.0=h2bbff1b_0
-tzdata=2021e=hda174b7_0
-update_checker=0.18.0=pyh9f0ad1d_0
-urllib3=1.26.8=pyhd8ed1ab_1
-vc=14.2=h21ff451_1
-vs2015_runtime=14.27.29016=h5e58377_2
-websocket-client=1.2.3=pyhd8ed1ab_0
-wheel=0.37.0=pyhd3eb1b0_1
-win_inet_pton=1.1.0=py39hcbf5309_3
-wincertstore=0.2=py39haa95532_2
+brotlipy @ file:///D:/bld/brotlipy_1636012392748/work
+certifi==2021.10.8
+cffi @ file:///D:/bld/cffi_1636046278333/work
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1641584610847/work
+cryptography @ file:///D:/bld/cryptography_1639699435873/work
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1609836280497/work
+praw @ file:///home/conda/feedstock_root/build_artifacts/praw_1637180885324/work
+prawcore @ file:///home/conda/feedstock_root/build_artifacts/prawcore_1635580284285/work
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
+pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1633192417276/work
+PySocks @ file:///D:/bld/pysocks_1635862562854/work
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1641580202195/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+update-checker @ file:///home/conda/feedstock_root/build_artifacts/update_checker_1596529541613/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1641584929973/work
+websocket-client @ file:///home/conda/feedstock_root/build_artifacts/websocket-client_1638949723239/work
+win-inet-pton @ file:///D:/bld/win_inet_pton_1635832858406/work
+wincertstore==0.2
