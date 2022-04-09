@@ -54,6 +54,9 @@ def fuckV(subreddit, path, whitelist, replies):
         try:    
             if isV(author):
                 subreddit.banned.add(author.name, ban_reason = "被鉴定为V87了捏\U0001f917")
+                author.message(
+                    "Ban Reason", "被鉴定为V87了捏\U0001f917", from_subreddit=subreddit
+                )
                 comment.reply(random.choice(replies))
                 print(f"{author.name}: 被鉴定为V87了捏\U0001f917")
             else :
