@@ -1,1 +1,1 @@
-worker: python src/main/py/banV.py
+worker: python banV.py
