@@ -25,7 +25,10 @@ def fuckV(subreddit, path, whitelist, replies):
     jsonFile = open(path, 'r', encoding="UTF-8")
     
     data = json.load(jsonFile)
-    checked = set(data["checked"])
+    if len(data["checked"]) > 50:
+        checked = set(data["checked"][-40:])
+    else:     
+        checked = set(data["checked"])
     users = data["users"]
     for comment in subreddit.comments(limit = 10):
         try:
